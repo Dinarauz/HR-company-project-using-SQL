@@ -10,4 +10,13 @@ This project demonstrates the design and implementation of a comprehensive datab
 Successfully designed and implemented a 6 table normalized database with complete application interface, transforming manual HR processes into structured, scalable data management system.
 
 **Business Problem:**
+**Company Background:**
+This HR company provides recruiting, paperwork, human resources, training/development, payroll processing, performance review and compliance legal services. The company initially utilized spreadsheets via Excel to maintain key records and processes.
+
+**Core Business Challenge:**
+The company wants to establish a database management system to support expansion beyond our primitive Excel-based interactions. Key operational requirements included:
+• **Lead Management:** Monitor company 
+•
+•
+
 
