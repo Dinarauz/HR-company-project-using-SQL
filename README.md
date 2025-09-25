@@ -4,5 +4,10 @@
 Enterprise Database Solution for Human Resources Industy
 
 **Execute Summary**
-This project demonstrates the design and implementation of a comprehensive database management system for an HR services company
+This project demonstrates the design and implementation of a comprehensive database management system for an HR services company established in 2019. The solution addresses the transition from Excel-based spreadsheet management to a normalized relational database system to support company expansion and improve operational efficiency.
+
+**Key Achievement:**
+Successfully designed and implemented a 6 table normalized database with complete application interface, transforming manual HR processes into structured, scalable data management system.
+
+**Business Problem:**
 
