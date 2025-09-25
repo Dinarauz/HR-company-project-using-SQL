@@ -25,6 +25,7 @@ Created a normalized 6-table database with a complete Access application interfa
 
   **Technical Details:**
   *Schema Example:*
+  '
   CREATE TABLE Company (
     company_id INT PRIMARY KEY,
     company_name VARCHAR(100),
@@ -41,7 +42,7 @@ CREATE TABLE Employee (
     department_id INT,
     phone VARCHAR(20),
     FOREIGN KEY (department_id) REFERENCES Department(department_id)
-);
+);'
 
 **Complex Query Implementation:**
 Built multi-table joins connecting employee, application, job, company, and department data for comprehensive reporting.
