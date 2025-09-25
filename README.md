@@ -11,22 +11,53 @@ A growing HR services company (established 2019) was hitting limits with their E
 
 **What we built:**
 Created a normalized 6-table database with a complete Access application interface.
+
 **Database Structure:**
+  • Company, Employee, Job, Application, Department, Contact tables
+  • Proper foreign key relationship between all entities
+  • Normalized to 3NF to eliminate data redundancy
+  
+**Application Features:**
+  •Navigation form connecting all database functions
+  •Data entry forms for each table
+  •SQL based reporting for applications and job postings
+  •Full CRUD operations throughout the system
 
-  • **Lead Management:** Monitor company leads and hiring leads effectively
-  • **Payroll Processing:** Track payroll inventory and employee compensations
-  • **Performance Management:** Handle performance review infromation systematically
-  • **System Security:** Protect classified HR data stored in the database
-  • **Analytics & Reporting:** Expand analysis through reporting systems to understand hiring practices, company leads, and payroll efficiencies
+  **Technical Details:**
+  *Schema Example:*
+  CREATE TABLE Company (
+    company_id INT PRIMARY KEY,
+    company_name VARCHAR(100),
+    address VARCHAR(200),
+    city VARCHAR(50),
+    state VARCHAR(2),
+    zip VARCHAR(10)
+);
 
-**System Requirements Identified:**
-  •Comprehensive database management for all HR functions
-  •Customizable system to accommodate different clients and industries
-  •Integration capabilities with existing systems and software
-  •Scalable and flexible architecture for growth
-  •Durable security measures for sensitive HR data
-  •Customizable dashboards and analytical measures for data-driven decisions
+CREATE TABLE Employee (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department_id INT,
+    phone VARCHAR(20),
+    FOREIGN KEY (department_id) REFERENCES Department(department_id)
+);
 
+**Complex Query Implementation:**
+Built multi-table joins connecting employee, application, job, company, and department data for comprehensive reporting.
+
+**Skills Used:**
+  •Database design and ER modeling
+  •Normalization (1NF, 2NF, 3NF)
+  •SQL (DDL/DML, joins, constraints)
+  •Microsoft Access forms and reports
+  •Data integrity and foreign key management
+
+**Results:**
+The system handles the HR company's core operations: tracking leads, managing job applications, processing payroll data, and generating reports. Replaced their scattered Excel files with a single, consistent database that can actually scale with their business growth.
+
+**Tech Stack:** Microsoft Access, SQL
+**Project Type:** Database design and application development group project.
 
 
 
