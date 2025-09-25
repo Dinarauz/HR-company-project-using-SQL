@@ -11,12 +11,13 @@ Successfully designed and implemented a 6 table normalized database with complet
 
 **Business Problem:**
 **Company Background:**
-This HR company provides recruiting, paperwork, human resources, training/development, payroll processing, performance review and compliance legal services. The company initially utilized spreadsheets via Excel to maintain key records and processes.
+Our HR company provides recruiting, paperwork, human resources, training/development, payroll processing, performance review and compliance legal services. The company initially utilized spreadsheets via Excel to maintain key records and processes.
 
 **Core Business Challenge:**
-The company wants to establish a database management system to support expansion beyond our primitive Excel-based interactions. Key operational requirements included:
-• **Lead Management:** Monitor company 
-•
-•
+The company wants to establish a database management system to support expansion beyond our primitive Excel-based interactions. Hence our team was hired to work on key operational requirements included:
+• **Lead Management:** Monitor company leads and hiring leads effectively
+• **Payroll Processing:** Track payroll inventory and employee compensations
+• **Performance Management:** Handle performance review infromation systematically
+• **System Security:** Protect classified HR data stored in the database
 
 
