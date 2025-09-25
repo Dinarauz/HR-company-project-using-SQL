@@ -15,9 +15,20 @@ Our HR company provides recruiting, paperwork, human resources, training/develop
 
 **Core Business Challenge:**
 The company wants to establish a database management system to support expansion beyond our primitive Excel-based interactions. Hence our team was hired to work on key operational requirements included:
-• **Lead Management:** Monitor company leads and hiring leads effectively
-• **Payroll Processing:** Track payroll inventory and employee compensations
-• **Performance Management:** Handle performance review infromation systematically
-• **System Security:** Protect classified HR data stored in the database
+  • **Lead Management:** Monitor company leads and hiring leads effectively
+  • **Payroll Processing:** Track payroll inventory and employee compensations
+  • **Performance Management:** Handle performance review infromation systematically
+  • **System Security:** Protect classified HR data stored in the database
+  • **Analytics & Reporting:** Expand analysis through reporting systems to understand hiring practices, company leads, and payroll efficiencies
+
+**System Requirements Identified:**
+  •Comprehensive database management for all HR functions
+  •Customizable system to accommodate different clients and industries
+  •Integration capabilities with existing systems and software
+  •Scalable and flexible architecture for growth
+  •Durable security measures for sensitive HR data
+  •Customizable dashboards and analytical measures for data-driven decisions
+
+
 
 
